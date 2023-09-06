@@ -1,0 +1,10 @@
+﻿CREATE TABLE `addresstype` (
+  `AddressTypeID` INT NOT NULL AUTO_INCREMENT,
+  `Name` VARCHAR(50) NOT NULL,
+  `rowguid` VARBINARY(16) NOT NULL,
+  `ModifiedDate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (AddressTypeID)
+)
+ENGINE = INNODB,
+CHARACTER SET utf8mb3,
+COLLATE utf8mb3_general_ci;
